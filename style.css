@@ -1,0 +1,113 @@
+body {
+    font-family: Roboto;
+}
+
+
+/* First block with nav and hero image */
+
+.header {
+display: flex;
+flex-direction: column;
+background-color: #1F2937;
+padding: 20px 100px;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    margin-bottom: 70px;
+    justify-content: space-between;
+}
+
+.hero-block {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.overview {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 600px;
+    gap: 10px;
+}
+
+.button {
+background-color: #3882F6;
+color: #F9FAF8;
+border-radius: 5px;
+padding: 3px 20px;
+}
+
+.hero-image {
+    background-color: gray;
+}
+
+.dev-image {
+    width: 200px;
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 40px;
+}
+
+ul, .hero-secondary {
+    font-size: 18;
+    color: #E5E7EB;
+}
+
+.hero-main {
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+}
+
+/* Block with developers */
+
+.developers {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    padding: 50px;
+}
+
+.dev-header {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+}
+
+.dev-images {
+    display: flex;
+    gap: 50px;
+    padding: 0px 100px;
+}
+   
+.developer-profile {
+display: flex;
+flex-direction: column;
+align-items: center;
+max-width: 150px;
+}
+
+.developer-description {
+text-align: center;
+}
+
+.ton-image {
+width: 100px;
+}
